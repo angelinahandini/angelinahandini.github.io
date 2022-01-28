@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #273036;
+}
+
+.blur {
+  width: auto;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  color: white;
+  border-radius: 10px;
+}
+
+.bg-blur {
+  width: auto;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  color: white;
+}
+
+.heading {
+  padding-top: 8rem;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+  font-size: 4rem;
+}
+.heading-footer {
+  padding-top: 0rem;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+  font-size: 4rem;
+}
+
+.heading-span {
+  color: #eb964f;
+}
+
+.lead-about {
+  color: #fff;
+}
