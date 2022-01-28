@@ -54,3 +54,17 @@ body {
 .lead-about {
   color: #fff;
 }
+
+.iframe-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.Title-Testi {
+  font-size: 2rem;
+  margin-top: 2rem;
+  color: #fff;
+}
+.Desc-test {
+  color: #fff;
+}
